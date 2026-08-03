@@ -18,6 +18,12 @@
   end-to-end with LangSmith tracing so every step, prompt, and token can be inspected in the
   LangSmith dashboard.
 </p>
+<h2> Output_sample_LangSmith </h2>
+<img width="1917" height="952" alt="image" src="https://github.com/user-attachments/assets/cf8557f1-c6e3-4639-89a6-b13d5ca7bcf6" />
+
+<img width="1917" height="1046" alt="image" src="https://github.com/user-attachments/assets/c03055e4-d7a6-41a8-acdc-51ef0d9b6f5d" />
+
+<img width="1917" height="1138" alt="image" src="https://github.com/user-attachments/assets/5423a319-87f8-44c5-9ce9-ca986286c6a0" />
 
 <h2>🎯 What This Repo Covers</h2>
 <ul>
