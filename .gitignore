@@ -1,0 +1,11 @@
+#venv
+
+.env
+
+Include
+
+scripts
+
+pyvenv.cfg
+
+Lib
