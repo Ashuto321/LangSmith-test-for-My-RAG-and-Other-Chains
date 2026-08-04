@@ -10,7 +10,7 @@
 
 <hr/>
 
-<h2>📌 About the Project</h2>
+<h2>About the Project</h2>
 <p>
   This repository is a hands-on playground for learning and testing <b>LangSmith</b> —
   the observability and tracing platform for LLM applications. Each script demonstrates
@@ -25,16 +25,16 @@
 
 <img width="1917" height="1138" alt="image" src="https://github.com/user-attachments/assets/5423a319-87f8-44c5-9ce9-ca986286c6a0" />
 
-<h2>🎯 What This Repo Covers</h2>
+<h2>What This Repo Covers</h2>
 <ul>
-  <li>✅ Setting up <code>LANGSMITH_TRACING</code> for automatic run logging</li>
-  <li>✅ Simple single-turn LLM calls via <b>Groq</b> models</li>
-  <li>✅ Sequential / multi-step chains using <b>LangChain Runnables (LCEL)</b></li>
-  <li>✅ Debugging latency, token usage, and intermediate outputs per run</li>
-  <li>✅ Organizing traces into projects inside the LangSmith UI</li>
+  <li>Setting up <code>LANGSMITH_TRACING</code> for automatic run logging</li>
+  <li>Simple single-turn LLM calls via <b>Groq</b> models</li>
+  <li>Sequential / multi-step chains using <b>LangChain Runnables (LCEL)</b></li>
+  <li>Debugging latency, token usage, and intermediate outputs per run</li>
+  <li>Organizing traces into projects inside the LangSmith UI</li>
 </ul>
 
-<h2>🗂️ Project Structure</h2>
+<h2>Project Structure</h2>
 <pre>
 langsmith-masterclass/
 ├── 1_simple_llm_call.py       # Basic single LLM invocation with tracing
@@ -44,27 +44,27 @@ langsmith-masterclass/
 └── README.md
 </pre>
 
-<h2>⚙️ Setup & Installation</h2>
+<h2>Setup & Installation</h2>
 
-<h3>1️⃣ Clone the repository</h3>
+<h3>Clone the repository</h3>
 <pre>
 git clone https://github.com/Ashuto321/LangSmith-test-for-My-RAG-and-Other-Chains.git
 cd LangSmith-test-for-My-RAG-and-Other-Chains
 </pre>
 
-<h3>2️⃣ Create a virtual environment</h3>
+<h3>Create a virtual environment</h3>
 <pre>
 python -m venv venv
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # macOS/Linux
 </pre>
 
-<h3>3️⃣ Install dependencies</h3>
+<h3>Install dependencies</h3>
 <pre>
 pip install langchain langchain-groq python-dotenv langsmith
 </pre>
 
-<h3>4️⃣ Configure environment variables</h3>
+<h3>Configure environment variables</h3>
 <p>Create a <code>.env</code> file in the root directory (never commit this file):</p>
 <pre>
 GROQ_API_KEY=your_groq_api_key_here
@@ -75,11 +75,11 @@ LANGSMITH_PROJECT=LANGSMITH_DEMO
 </pre>
 
 <blockquote>
-  ⚠️ <b>Never commit your <code>.env</code> file.</b> Make sure it's listed in
+  <b>Never commit your <code>.env</code> file.</b> Make sure it's listed in
   <code>.gitignore</code> before pushing to GitHub.
 </blockquote>
 
-<h2>▶️ Running the Scripts</h2>
+<h2>Running the Scripts</h2>
 <pre>
 python 1_simple_llm_call.py
 python 2_sequential_chain.py
@@ -117,19 +117,19 @@ python 2_sequential_chain.py
 
 <h2>🚧 Roadmap</h2>
 <ul>
-  <li>⬜ Add RAG pipeline with tracing</li>
-  <li>⬜ Add agent-based chain examples</li>
-  <li>⬜ Add evaluation datasets in LangSmith</li>
-  <li>⬜ Add custom feedback scoring for traces</li>
+  <li>Add RAG pipeline with tracing</li>
+  <li>Add agent-based chain examples</li>
+  <li>Add evaluation datasets in LangSmith</li>
+  <li>Add custom feedback scoring for traces</li>
 </ul>
 
-<h2>🤝 Contributing</h2>
+<h2>Contributing</h2>
 <p>
   This is primarily a personal learning repo, but suggestions and PRs around
   cleaner tracing patterns, new chain examples, or bug fixes are welcome.
 </p>
 
-<h2>📬 Connect</h2>
+<h2>Connect</h2>
 <p>
   <a href="https://github.com/Ashuto321">GitHub</a> •
   <a href="https://www.linkedin.com/">LinkedIn</a>
